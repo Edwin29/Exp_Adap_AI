@@ -1,0 +1,64 @@
+{
+  "config": {
+    "n_players": 1000,
+    "n_games": 300,
+    "positions": 8,
+    "candidates": 3,
+    "tradeoff_rho": 0.6,
+    "w_mat": 1.0,
+    "w0_mean": 0.2,
+    "w0_sd": 0.3,
+    "target_mean": 1.2,
+    "target_sd": 0.3,
+    "p_static": 0.2,
+    "alpha_a": 2.0,
+    "alpha_b": 20.0,
+    "k0": -1.8,
+    "k1": 2.0,
+    "p_win": 0.45,
+    "p_draw": 0.05,
+    "drift_sd": 0.0,
+    "seed": 0
+  },
+  "summary": {
+    "king_attack_loss_rate_first50": 0.189,
+    "king_attack_loss_rate_last50": 0.137,
+    "events_per_player_q10_50_90": [
+      28.0,
+      41.5,
+      71.0
+    ],
+    "w_start_q": [
+      -0.177,
+      0.178,
+      0.569
+    ],
+    "w_end_q": [
+      0.185,
+      0.977,
+      1.425
+    ],
+    "w_change_moving_q": [
+      0.392,
+      0.878,
+      1.403
+    ],
+    "w_change_static_q": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "share_of_change_done_by_game": {
+      "25": 0.337,
+      "50": 0.534,
+      "100": 0.752,
+      "200": 0.934
+    },
+    "alpha_moving_q": [
+      0.028,
+      0.079,
+      0.184
+    ],
+    "n_static": 205
+  }
+}

@@ -1,0 +1,23 @@
+# 데이터와 산출물은 커밋하지 않는다
+data/
+outputs/
+*.pgn
+*.pgn.gz
+*.pgn.zst
+*.zst
+*.part
+*.pkl
+*.parquet
+*.csv
+*.csv.gz
+*.tar.gz
+
+# 이용자 이름 목록
+*_names.txt
+
+# 환경
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
